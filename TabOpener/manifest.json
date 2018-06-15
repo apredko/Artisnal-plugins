@@ -3,14 +3,6 @@
     "name": "Artisanal Plug-In",
     "description": "booper",
     "version": "1.0",
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*/*"
-            ],
-            "run_at": "document_end"
-        }
-    ],
   "permissions": [
     "activeTab",
     "tabs"
@@ -24,4 +16,3 @@
       "default_icon": "icon.png"
   }
 }
-

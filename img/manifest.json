@@ -3,13 +3,18 @@
     "name": "Artisanal Plug-In",
     "description": "dooper",
     "version": "1.0",
+    "web_accessible_resources": [
+       "img/1.jpeg",
+       "newtab.js"
+    ],
     "content_scripts": [
         {
             "matches": [
                 "*://*/*"
             ],
             "js": [
-                "content.js"
+                "content.js",
+                "jquery.js"
             ],
             "run_at": "document_end"
         }
@@ -17,6 +22,9 @@
   "permissions": [
     "activeTab"
   ],
+  "chrome_url_overrides" : {
+    "newtab": "myPage.html"
+  },
   "browser_action": {
       "default_title": "Do It To It",
       "default_icon": "icon.png"
