@@ -1,11 +1,3 @@
-
-var images = ['img/1.jpeg', 'img/2.jpeg','img/3.jpeg','img/4.jpeg','img/5.jpeg'];
-var randomImage = Math.floor(Math.random() * (images.length-1)) + 1 
-    $(document).ready(function() {
-    $("body").css("background-image", "url('"+images[randomImage]+"')");
-    $("#this p").text(beep);
-});
-var final = ['','','','','','',''];	
 var words = [
 	['forged', 'crafted', 'ethically produced', 
 	'fabricated', 'fashioned', 'designed', 'produced', 
@@ -169,12 +161,3 @@ var words = [
 	  'Did I turn off the stove?', 'what was my last meaningful interaction?', 'when is the last time I flossed?',
 	  ]
 ];
-for (var i = 0; i < words.length; i++) {
-	final[i] = words[i][Math.floor(Math.random() * (words[i].length))];
-	console.log(final);
-}
-
-
-var beep = ' ' +final[0]+' in '+final[1]+', this plugin has been the work of '+final[2]+' for generations. The '+final[3]+' hint of '+final[4]+' and subtle taste of '+final[5]+' will undoubtedly leave you thinking \"'+final[6]+'\".';
-
-
