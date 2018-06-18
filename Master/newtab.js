@@ -7,15 +7,19 @@ var randomImage = Math.floor(Math.random() * (images.length-1)) + 1
 });
 var final = ['','','','','','',''];	
 var words = [
-	['forged', 'crafted', 'ethically produced', 
-	'fabricated', 'fashioned', 'designed', 'produced', 
-	'hand crafted', 'lovingly', 'transcribed','built from the ground up', 
-	'hand finished', 'manufactured', 'shaped from earthen clay', 'carved', 'bound to this plane', 
+	['forged', 'crafted', 'ethically produced', 'wrestled from the mouth of a bear', 'divined from the ashes', 
+	 'hand woven by twenty-six weavers', 'pulled from the wreakage', 'pulled from the dreamworld by Morpheus himself',
+	 'argued into existence', 'bent into shape', 'chosen in a moment of desperation from a line up', 'scraped together from the best of the prototypes', 
+	 'made in a hack-a-thon', 'drawn together from a multicultural and diverse group of designers', 'scraped from the bottom of our board room table',
+	 'grown locally and theically',
+	'fabricated', 'fashioned', 'designed', 'produced', 'ripped from the hands of children', 'painstakenly recreated', 'recovered from a forest fire', 
+	'hand crafted', 'lovingly', 'transcribed','built from the ground up', 'brought to the new world', 'locally sourced', 'ethically caught', 'renewed from eneergy',
+	'hand finished', 'manufactured', 'shaped from earthen clay', 'carved', 'bound to this plane', ' won in a bet against your cousin',
 	'pressed', 'tethered to this reality', 'assembled', 'put together', 'created', 'brought to you by', 
 	'made', 'perfectly executed', 'falsified', 'concocted', 'activated', 'arose', 'incepted', 'harvested', 
-	'ethically harvested', 'grown', 'attained', 'consummated', 'sewn together', 'materialized', 
-	'hastily cobbled together', 'realized, brought to pass', 'acquired', 'delivered from God', 
-	'perfected', 'procured', 'foraged', 'realized', 'brought to you by your local community', 
+	'ethically harvested', 'grown', 'mined', 'recovered from a deep and unknown underground cave system', 'stolen from another culture', 'culturallt appropriated', 'attained', 'awoken', 'found by minstrels', 'consummated', 'sewn together', 'materialized', 
+	'hastily cobbled together', 'realized, brought to pass', 'acquired', 'hand-milled', 'blown in from' 'delivered from God', 
+	'perfected', 'procured', 'foraged', 'realized', 'brought to you by your local community', 'brought from', 'painstakenly built', 
 	'ripped from the ether', 'dug out from the ground', 'contractually obtained in the divorce', 
 	'dreamt up by sirens', 'cut from the stone', 'won in a bar fight', 'found in a roadside ditch', 
 	'bought at the dollarstore and repurposed', 'tamed from the unknowable wilds', 'thawed from the permafrost', 
@@ -28,7 +32,7 @@ var words = [
 	  'your local convenience store', 'the same place you made your biggest regret', 'the middle of the road', 
 	  'the building you always look into on your walk to work', 'your old elementary school', 'the Eaton’s Centre', 
 	  'the shortcut through the construction site', 'deep Scarborough', 'Union Go Train Station', 'the Beaches', 
-	  'in your friend’s living room', ' Dufferin station', 'the AGO', 'your own home', 'the bathroom',
+	  'your friend’s living room', ' Dufferin station', 'the AGO', 'your own home', 'the bathroom',
 	 'your friends bathroom', 'in your bathroom', 'your office', 'a back alley', 'the bath', 'the shadow of Casa Loma',
 	  'the water',' on the beach', 'Dufferin Mall', 'a truck stop', 
 	  'an OnRoute station though which one I can’t be sure- they all look the same to me', 
@@ -62,7 +66,8 @@ var words = [
 	'gentle', 'overwhelming', 'citrusy', 'woody', 'mouldy', 'smokey' ],
 
 	[
-	                  'a handknit sweater', 'a handful of pink yarn', 
+	                  'a handknit sweater', 'a handful of pink yarn', 'a pill bug handed to you by a 3 year old',
+			
 	                  'a hot bowl of soup from Food Not Bombs', 'a shirt your ex left behind but it’s been too long to give back without it getting weird which makes you both too upset to keep or dispose of', 
 	                  'a really old looking pigeon',  'fresh of wood shavings',' a whittled toy sword', 
 	                  'what appears to be a sack of runes', 'a vial of ink',  'a break from your worries',
